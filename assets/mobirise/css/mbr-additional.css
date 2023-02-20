@@ -682,28 +682,22 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-twrKIqN4Fv {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #000000;
-}
-.cid-twrKIqN4Fv .mbr-fallback-image.disabled {
+.cid-twrXuR5J4w .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-twrKIqN4Fv .mbr-fallback-image {
+.cid-twrXuR5J4w .mbr-fallback-image {
   display: block;
   background-size: cover;
-  background-position: center center;
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
+  background-image: url("../../../assets/images/background13.jpg");
 }
-.cid-twrKIqN4Fv .video-wrapper iframe {
-  width: 100%;
+.cid-twrXuR5J4w .mbr-text,
+.cid-twrXuR5J4w .mbr-section-btn {
+  color: #ffffff;
 }
-.cid-twrKIqN4Fv .mbr-section-title,
-.cid-twrKIqN4Fv .mbr-section-subtitle,
-.cid-twrKIqN4Fv .mbr-text {
-  text-align: center;
+.cid-twrXuR5J4w .mbr-section-title {
+  color: #ffffff;
 }
