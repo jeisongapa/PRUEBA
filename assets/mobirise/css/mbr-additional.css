@@ -682,15 +682,15 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-twrC5DgVwt {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
+.cid-twrFtwve90 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #fbfbfb;
 }
-.cid-twrC5DgVwt .mbr-fallback-image.disabled {
+.cid-twrFtwve90 .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-twrC5DgVwt .mbr-fallback-image {
+.cid-twrFtwve90 .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -699,11 +699,43 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-twrC5DgVwt .video-wrapper iframe {
+.cid-twrFtwve90 .video-wrapper iframe {
   width: 100%;
 }
-.cid-twrC5DgVwt .mbr-section-title,
-.cid-twrC5DgVwt .mbr-section-subtitle,
-.cid-twrC5DgVwt .mbr-text {
+.cid-twrFtwve90 .mbr-section-title,
+.cid-twrFtwve90 .mbr-section-subtitle,
+.cid-twrFtwve90 .mbr-text {
   text-align: center;
+}
+.cid-twrFtwve90 .container-fluid {
+  padding: 0;
+}
+@media (max-width: 991px) {
+  .cid-twrFtwve90 .container-fluid {
+    padding: 0;
+  }
+}
+.cid-twrFtwve90 .app-video-wrapper::before {
+  position: absolute;
+  font-family: "Moririse2";
+  content: "\e95f";
+  font-size: 12px;
+  line-height: 70px;
+  margin-left: -35px;
+  margin-top: -35px;
+  top: 50%;
+  left: 50%;
+  color: #ff6666;
+  text-shadow: none;
+  z-index: 1;
+  width: 105px;
+  height: 105px;
+  background-color: #fbfbfb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.cid-twrFtwve90 .app-video-wrapper > img {
+  opacity: .6;
 }
